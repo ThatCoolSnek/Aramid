@@ -16,4 +16,10 @@
             </graphicData>
         </value>
     </Operation>
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="DevilstrandCloth"]/label</xpath>
+        <value>
+            <label>Aramid</label>
+        </value>
+    </Operation>
 </Patch>
