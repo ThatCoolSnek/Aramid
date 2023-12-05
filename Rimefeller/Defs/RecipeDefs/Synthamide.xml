@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Defs>
+    <!-- synthamide x25 to Aramid x30 -->
+    <RecipeDef>
+        <defName>Make_Aramid_Sythamide</defName>
+        <label>make aramid from Synthamide</label>
+        <description>Weave Synthamide into Aramid</description>
+        <jobString>Weaving Aramid.</jobString>
+        <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+        <effectWorking>Tailor</effectWorking>
+        <soundWorking>Recipe_Tailor</soundWorking>
+        <workAmount>1000</workAmount>
+        <allowMixingIngredients>False</allowMixingIngredients>
+        <targetCountAdjustment>25</targetCountAdjustment>
+        <recipeUsers>
+            <li>TableMachining</li>
+            <li>FabricationBench</li>
+        </recipeUsers>
+        <ingredients>
+            <li>
+              <filter>
+                <thingDefs>
+                  <li>Synthamide</li>
+                </thingDefs>
+              </filter>
+              <count>25</count>
+            </li>
+        </ingredients>
+        <fixedIngredientFilter>
+            <thingDefs>
+              <li>DevilstrandCloth</li>
+            </thingDefs>
+        </fixedIngredientFilter>
+        <products>
+          <DevilstrandCloth>30</DevilstrandCloth>
+        </products>
+        <skillRequirements>
+            <Crafting>6</Crafting>
+          </skillRequirements>
+        <workSkill>Crafting</workSkill>
+        <displayPriority>0</displayPriority>
+    </RecipeDef>
+    <!-- synthamide x100 to Aramid x120 -->
+    <RecipeDef>
+        <defName>Make_Aramid_sythamidebulk</defName>
+        <label>make aramid from Synthamide in bulk</label>
+        <description>Weave Synthamide into Aramid in bulk</description>
+        <jobString>Weaving Aramid in bulk.</jobString>
+        <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+        <effectWorking>Tailor</effectWorking>
+        <soundWorking>Recipe_Tailor</soundWorking>
+        <workAmount>3750</workAmount>
+        <allowMixingIngredients>False</allowMixingIngredients>
+        <targetCountAdjustment>25</targetCountAdjustment>
+        <recipeUsers>
+          <li>TableMachining</li>
+          <li>FabricationBench</li>
+        </recipeUsers>
+        <ingredients>
+            <li>
+              <filter>
+                <thingDefs>
+                  <li>Synthamide</li>
+                </thingDefs>
+              </filter>
+              <count>100</count>
+            </li>
+        </ingredients>
+        <fixedIngredientFilter>
+            <thingDefs>
+              <li>DevilstrandCloth</li>
+            </thingDefs>
+        </fixedIngredientFilter>
+        <products>
+          <DevilstrandCloth>120</DevilstrandCloth>
+        </products>
+        <skillRequirements>
+            <Crafting>8</Crafting>
+          </skillRequirements>
+        <workSkill>Crafting</workSkill>
+        <displayPriority>0</displayPriority>
+    </RecipeDef>
+</Defs>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<Defs>
+    <ThingDef ParentName="ResourceBase">
+        <defName>Snek_DevilstrandFibre</defName>
+        <label>devilstrand fibre</label>
+        <description>Fabric spun from microfibers extracted from devilstrand mushrooms. It is very tough, good at insulating, and protects exceptionally well against flame.</description>
+        <graphicData>
+            <texPath>Things/Item/Resource/Devilstrand</texPath>
+            <graphicClass>Graphic_StackCount</graphicClass>
+        </graphicData>
+        <statBases>
+            <MaxHitPoints>75</MaxHitPoints>
+            <MarketValue>3.5</MarketValue>
+            <Mass>0.032</Mass>
+            <Flammability>0.4</Flammability>
+            <DeteriorationRate>3</DeteriorationRate>
+        </statBases>
+        <burnableByRecipe>true</burnableByRecipe>
+        <healthAffectsPrice>false</healthAffectsPrice>
+        <minRewardCount>30</minRewardCount>
+        <thingCategories>
+            <li>Textiles</li>
+        </thingCategories>
+        <allowedArchonexusCount>100</allowedArchonexusCount>
+    </ThingDef>
+</Defs>

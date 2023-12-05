@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<Patch>
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="Plant_Devilstrand"]/plant/harvestedThingDef</xpath>
+        <value>
+            <harvestedThingDef>Snek_DevilstrandFibre</harvestedThingDef>
+        </value>
+    </Operation>
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="DevilstrandCloth"]/graphicData</xpath>
+        <value>
+            <graphicData>
+                <texPath>Things/Item/Resource/Aramid</texPath>
+                <graphicClass>Graphic_Single</graphicClass>
+            </graphicData>
+        </value>
+    </Operation>
+</Patch>
